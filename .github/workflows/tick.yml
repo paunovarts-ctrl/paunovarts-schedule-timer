@@ -1,0 +1,19 @@
+# Wakes the Paunov Art Schedule's cloud publisher (paunovarts-schedule.vercel.app/api/tick) every 10 minutes,
+# 07:00–23:59 Zagreb summer time (06:00–22:59 winter). The function only posts when the owner's laptop has switched
+# it on ("cloud" mode); otherwise each call is a no-op. The key lives in this repo's Actions secrets, never in code.
+name: tick
+on:
+  schedule:
+    - cron: '3,13,23,33,43,53 5-21 * * *'
+  workflow_dispatch:
+concurrency:
+  group: tick
+  cancel-in-progress: false
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - name: Wake the cloud publisher
+        run: |
+          curl -fsS --max-time 90 -X POST -H "x-tick-key: ${{ secrets.TICK_KEY }}" https://paunovarts-schedule.vercel.app/api/tick
