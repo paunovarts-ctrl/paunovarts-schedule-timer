@@ -94,15 +94,28 @@
     },
     "1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan": {
       "when": "2026-10-23T19:00:00+02:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-10-23 18:56",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 19:02",
+          "event": "published https://www.instagram.com/reel/De2CX1IgPAn/"
+        },
+        {
+          "at": "2026-10-23 19:02",
+          "event": "first comment posted"
         }
       ],
-      "container": "18053447633811285"
+      "container": "18053447633811285",
+      "mediaId": "18126389450477640",
+      "permalink": "https://www.instagram.com/reel/De2CX1IgPAn/",
+      "publishedAt": "2026-10-23T17:02:23.580Z",
+      "error": "",
+      "commentId": "17957209491259685"
     },
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -124,6 +137,7 @@
     }
   },
   "log": [
+    "2026-10-23 19:02  PUBLISHED REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan → https://www.instagram.com/reel/De2CX1IgPAn/",
     "2026-10-23 18:56  prepared REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan",
     "2026-10-23 18:56  PUBLISHED STORY 1022-1930-story-behind-the-build-part-combed-by-code → https://www.instagram.com/stories/paunovarts/4014406440508489978",
     "2026-10-23 18:56  prepared STORY 1022-1930-story-behind-the-build-part-combed-by-code"
@@ -131,6 +145,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T16:56:00.196Z",
-  "lastTick": "2026-10-23T16:56:09.007Z",
-  "writtenAt": "2026-10-23T16:56:09.007Z"
+  "lastTick": "2026-10-23T17:02:26.552Z",
+  "writtenAt": "2026-10-23T17:02:26.552Z"
 }
