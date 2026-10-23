@@ -1,19 +1,49 @@
-# Wakes the Paunov Art Schedule's cloud publisher (paunovarts-schedule.vercel.app/api/tick) every 10 minutes,
-# 07:00–23:59 Zagreb summer time (06:00–22:59 winter). The function only posts when the owner's laptop has switched
-# it on ("cloud" mode); otherwise each call is a no-op. The key lives in this repo's Actions secrets, never in code.
+# Runs the Paunov Art Schedule's cloud publisher (paunovarts-schedule.vercel.app/api/tick) every 10 minutes,
+# 07:00–23:59 Zagreb summer time (06:00–22:59 winter), so posts go out with the laptop closed or offline.
+# It sends this repo's data/state.json (the queue, pushed by the laptop) and data/results.json (what the publisher did
+# so far) and commits the publisher's answer back to data/results.json. The publisher only posts when the laptop has
+# switched it on ("cloud" mode); otherwise each call is a no-op. The key lives in this repo's Actions secrets, never in code.
 name: tick
 on:
   schedule:
     - cron: '3,13,23,33,43,53 5-21 * * *'
   workflow_dispatch:
+    inputs:
+      dry:
+        description: 'Dry run: report what would happen, post nothing'
+        type: boolean
+        default: false
+permissions:
+  contents: write
 concurrency:
   group: tick
   cancel-in-progress: false
 jobs:
   tick:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 4
     steps:
-      - name: Wake the cloud publisher
+      - uses: actions/checkout@v4
+      - name: Run the cloud publisher
+        env:
+          TICK_KEY: ${{ secrets.TICK_KEY }}
+          DRY: ${{ inputs.dry && '?dry=1' || '' }}
         run: |
-          curl -fsS --max-time 90 -X POST -H "x-tick-key: ${{ secrets.TICK_KEY }}" https://paunovarts-schedule.vercel.app/api/tick
+          [ -f data/results.json ] || echo '{"posts":{},"log":[]}' > data/results.json
+          jq -n --slurpfile s data/state.json --slurpfile r data/results.json '{state: $s[0], results: $r[0]}' > body.json
+          code=$(curl -sS --max-time 90 -o out.json -w '%{http_code}' -X POST -H "x-tick-key: $TICK_KEY" \
+            -H 'content-type: application/json' --data-binary @body.json "https://paunovarts-schedule.vercel.app/api/tick$DRY" || echo 000)
+          echo "HTTP $code"; jq -c 'del(.results)' out.json 2>/dev/null || head -c 400 out.json
+          if jq -e '.results.posts' out.json > /dev/null 2>&1; then jq '.results' out.json > data/results.json; fi
+          echo "code=$code" >> "$GITHUB_ENV"
+      - name: Save what it did
+        run: |
+          git config user.name 'paunovarts-schedule'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/results.json
+          if ! git diff --cached --quiet; then
+            git commit -qm 'Cloud publisher results'
+            ok=0; for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep 5; done
+            [ $ok = 1 ] || { echo 'could not save the results'; exit 1; }
+          fi
+          [ "${code:-000}" -lt 400 ] || { echo "the publisher answered $code"; exit 1; }
