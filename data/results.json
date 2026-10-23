@@ -119,15 +119,28 @@
     },
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-10-23 19:45",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 20:01",
+          "event": "published https://www.instagram.com/reel/De2IGk0khCS/"
+        },
+        {
+          "at": "2026-10-23 20:01",
+          "event": "first comment posted"
         }
       ],
-      "container": "18053454026811285"
+      "container": "18053454026811285",
+      "mediaId": "18079843904389722",
+      "permalink": "https://www.instagram.com/reel/De2IGk0khCS/",
+      "publishedAt": "2026-10-23T18:01:00.999Z",
+      "error": "",
+      "commentId": "17951880555344857"
     },
     "1023-1930-story-free-first-look-feel-like-your-place": {
       "when": "2026-10-23T21:00:00+02:00",
@@ -184,6 +197,7 @@
     }
   },
   "log": [
+    "2026-10-23 20:01  PUBLISHED REEL 1014-1800-reel-worlds-how-it-renders → https://www.instagram.com/reel/De2IGk0khCS/",
     "2026-10-23 19:45  prepared REEL 1014-1800-reel-worlds-how-it-renders",
     "2026-10-23 19:21  PUBLISHED CAROUSEL 1121-1900-carousel-svolta-brand-identity → https://www.instagram.com/p/De2EjfXDCcp/",
     "2026-10-23 19:15  prepared CAROUSEL 1121-1900-carousel-svolta-brand-identity",
@@ -195,6 +209,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T17:57:49.861Z",
-  "lastTick": "2026-10-23T17:57:50.046Z",
-  "writtenAt": "2026-10-23T17:57:50.046Z"
+  "lastTick": "2026-10-23T18:01:04.653Z",
+  "writtenAt": "2026-10-23T18:01:04.653Z"
 }
