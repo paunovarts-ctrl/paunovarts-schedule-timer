@@ -1,0 +1,31 @@
+# A long timer run: a tick every few minutes for hours, so posts go out on time even when GitHub's own schedule is late
+# or skips runs (it did on 23 Oct: one scheduled run in 3.5 hours). Started by hand or by the daily triggers below.
+name: tick-loop
+on:
+  workflow_dispatch:
+    inputs:
+      minutes: { description: 'How long to keep ticking', type: number, default: 300 }
+      every: { description: 'Seconds between ticks', type: number, default: 180 }
+  schedule:
+    - cron: '7 4 * * *'     # 06:07 Zagreb summer (05:07 winter): the morning watch
+    - cron: '7 15 * * *'    # 17:07 Zagreb summer (16:07 winter): the evening watch, over the 19:00 / 19:30 slots
+permissions:
+  contents: write
+concurrency:
+  group: tick
+  cancel-in-progress: false
+jobs:
+  loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - name: Tick until the window ends
+        env:
+          TICK_KEY: ${{ secrets.TICK_KEY }}
+          MINUTES: ${{ inputs.minutes || 340 }}
+          EVERY: ${{ inputs.every || 180 }}
+        run: |
+          git config user.name 'paunovarts-schedule'; git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          end=$(( $(date +%s) + MINUTES * 60 ))
+          while [ "$(date +%s)" -lt "$end" ]; do bash scripts/tick.sh || echo 'tick failed, next one in a moment'; sleep "$EVERY"; done
