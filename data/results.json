@@ -71,12 +71,42 @@
       "status": "scheduled",
       "attempts": 0,
       "history": []
+    },
+    "1022-1930-story-behind-the-build-part-combed-by-code": {
+      "when": "2026-10-23T18:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan": {
+      "when": "2026-10-23T19:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1014-1800-reel-worlds-how-it-renders": {
+      "when": "2026-10-23T20:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1023-1930-story-free-first-look-feel-like-your-place": {
+      "when": "2026-10-23T21:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1024-1930-story-from-the-portfolio-part-plan-card": {
+      "when": "2026-10-23T22:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
     }
   },
   "log": [],
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-10-23T10:32:13.788Z",
-  "lastTick": "2026-10-23T10:32:13.788Z",
-  "writtenAt": "2026-10-23T10:32:13.788Z"
+  "checkedAt": "2026-10-23T15:20:44.129Z",
+  "lastTick": "2026-10-23T15:20:44.130Z",
+  "writtenAt": "2026-10-23T15:20:44.130Z"
 }
