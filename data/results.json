@@ -144,15 +144,23 @@
     },
     "1023-1930-story-free-first-look-feel-like-your-place": {
       "when": "2026-10-23T21:00:00+02:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-10-23 20:46",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 21:01",
+          "event": "published https://www.instagram.com/stories/paunovarts/4014461931603412557"
         }
       ],
-      "container": "18053461010811285"
+      "container": "18053461010811285",
+      "mediaId": "18118787998973842",
+      "permalink": "https://www.instagram.com/stories/paunovarts/4014461931603412557",
+      "publishedAt": "2026-10-23T19:01:29.485Z",
+      "error": ""
     },
     "1024-1930-story-from-the-portfolio-part-plan-card": {
       "when": "2026-10-23T22:00:00+02:00",
@@ -203,6 +211,7 @@
     }
   },
   "log": [
+    "2026-10-23 21:01  PUBLISHED STORY 1023-1930-story-free-first-look-feel-like-your-place → https://www.instagram.com/stories/paunovarts/4014461931603412557",
     "2026-10-23 20:46  prepared STORY 1023-1930-story-free-first-look-feel-like-your-place",
     "2026-10-23 20:01  PUBLISHED REEL 1014-1800-reel-worlds-how-it-renders → https://www.instagram.com/reel/De2IGk0khCS/",
     "2026-10-23 19:45  prepared REEL 1014-1800-reel-worlds-how-it-renders",
@@ -216,6 +225,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T18:58:23.852Z",
-  "lastTick": "2026-10-23T18:58:24.070Z",
-  "writtenAt": "2026-10-23T18:58:24.070Z"
+  "lastTick": "2026-10-23T19:01:29.513Z",
+  "writtenAt": "2026-10-23T19:01:29.513Z"
 }
