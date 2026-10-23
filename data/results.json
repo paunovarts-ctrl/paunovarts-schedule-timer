@@ -1,1 +1,82 @@
-{"posts":{},"log":[]}
+{
+  "posts": {
+    "1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol": {
+      "when": "2026-10-24T19:00:00+02:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1027-1900-reel-salon-website-design-why-does-this-websi": {
+      "when": "2026-10-27T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1029-1900-reel-logo-animation": {
+      "when": "2026-10-29T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1031-1900-carousel-logo-breakdown": {
+      "when": "2026-10-31T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1103-1900-reel-beach-app-on-a-tablet": {
+      "when": "2026-11-03T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1104-1900-reel-3d-animation-made-in-blender-meet-the-gi": {
+      "when": "2026-11-04T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1105-1900-reel-wine-bar-website": {
+      "when": "2026-11-05T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1107-1900-carousel-alba-brand-identity": {
+      "when": "2026-11-07T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1110-1900-reel-hotel-website-alba": {
+      "when": "2026-11-10T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1112-1900-reel-hotel-ad-alba": {
+      "when": "2026-11-12T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1114-1900-carousel-beach-body-brand": {
+      "when": "2026-11-14T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1117-1900-reel-my-own-website": {
+      "when": "2026-11-17T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    }
+  },
+  "log": [],
+  "account": "paunovarts",
+  "tokenError": "",
+  "checkedAt": "2026-10-23T10:32:13.788Z",
+  "lastTick": "2026-10-23T10:32:13.788Z",
+  "writtenAt": "2026-10-23T10:32:13.788Z"
+}
