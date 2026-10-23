@@ -164,15 +164,23 @@
     },
     "1024-1930-story-from-the-portfolio-part-plan-card": {
       "when": "2026-10-23T22:00:00+02:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-10-23 21:46",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 22:01",
+          "event": "published https://www.instagram.com/stories/paunovarts/4014492341825749236"
         }
       ],
-      "container": "18053466698811285"
+      "container": "18053466698811285",
+      "mediaId": "18115775342324310",
+      "permalink": "https://www.instagram.com/stories/paunovarts/4014492341825749236",
+      "publishedAt": "2026-10-23T20:01:54.405Z",
+      "error": ""
     },
     "1121-1900-carousel-svolta-brand-identity": {
       "when": "2026-10-23T19:20:00+02:00",
@@ -217,6 +225,7 @@
     }
   },
   "log": [
+    "2026-10-23 22:01  PUBLISHED STORY 1024-1930-story-from-the-portfolio-part-plan-card → https://www.instagram.com/stories/paunovarts/4014492341825749236",
     "2026-10-23 21:46  prepared STORY 1024-1930-story-from-the-portfolio-part-plan-card",
     "2026-10-23 21:01  PUBLISHED STORY 1023-1930-story-free-first-look-feel-like-your-place → https://www.instagram.com/stories/paunovarts/4014461931603412557",
     "2026-10-23 20:46  prepared STORY 1023-1930-story-free-first-look-feel-like-your-place",
@@ -232,6 +241,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T19:58:48.995Z",
-  "lastTick": "2026-10-23T19:58:49.180Z",
-  "writtenAt": "2026-10-23T19:58:49.180Z"
+  "lastTick": "2026-10-23T20:01:54.406Z",
+  "writtenAt": "2026-10-23T20:01:54.406Z"
 }
