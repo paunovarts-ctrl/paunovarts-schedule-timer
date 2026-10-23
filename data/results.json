@@ -119,9 +119,15 @@
     },
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
-      "status": "scheduled",
+      "status": "preparing",
       "attempts": 0,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-23 19:45",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18053454026811285"
     },
     "1023-1930-story-free-first-look-feel-like-your-place": {
       "when": "2026-10-23T21:00:00+02:00",
@@ -178,6 +184,7 @@
     }
   },
   "log": [
+    "2026-10-23 19:45  prepared REEL 1014-1800-reel-worlds-how-it-renders",
     "2026-10-23 19:21  PUBLISHED CAROUSEL 1121-1900-carousel-svolta-brand-identity → https://www.instagram.com/p/De2EjfXDCcp/",
     "2026-10-23 19:15  prepared CAROUSEL 1121-1900-carousel-svolta-brand-identity",
     "2026-10-23 19:02  PUBLISHED REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan → https://www.instagram.com/reel/De2CX1IgPAn/",
@@ -188,6 +195,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T17:27:40.357Z",
-  "lastTick": "2026-10-23T17:27:40.357Z",
-  "writtenAt": "2026-10-23T17:27:40.357Z"
+  "lastTick": "2026-10-23T17:45:45.604Z",
+  "writtenAt": "2026-10-23T17:45:45.604Z"
 }
