@@ -134,9 +134,38 @@
       "status": "scheduled",
       "attempts": 0,
       "history": []
+    },
+    "1121-1900-carousel-svolta-brand-identity": {
+      "when": "2026-10-23T19:20:00+02:00",
+      "status": "preparing",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 19:15",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 19:15",
+          "event": "carousel container"
+        }
+      ],
+      "children": [
+        "18053450651811285",
+        "18053450744811285",
+        "18053450768811285",
+        "18053450789811285",
+        "18053450807811285",
+        "18053450825811285",
+        "18053450843811285",
+        "18053450870811285",
+        "18053450891811285",
+        "18053450927811285"
+      ],
+      "container": "18053450951811285"
     }
   },
   "log": [
+    "2026-10-23 19:15  prepared CAROUSEL 1121-1900-carousel-svolta-brand-identity",
     "2026-10-23 19:02  PUBLISHED REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan → https://www.instagram.com/reel/De2CX1IgPAn/",
     "2026-10-23 18:56  prepared REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan",
     "2026-10-23 18:56  PUBLISHED STORY 1022-1930-story-behind-the-build-part-combed-by-code → https://www.instagram.com/stories/paunovarts/4014406440508489978",
@@ -145,6 +174,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T16:56:00.196Z",
-  "lastTick": "2026-10-23T17:02:26.552Z",
-  "writtenAt": "2026-10-23T17:02:26.552Z"
+  "lastTick": "2026-10-23T17:15:26.660Z",
+  "writtenAt": "2026-10-23T17:15:26.660Z"
 }
