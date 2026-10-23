@@ -144,9 +144,15 @@
     },
     "1023-1930-story-free-first-look-feel-like-your-place": {
       "when": "2026-10-23T21:00:00+02:00",
-      "status": "scheduled",
+      "status": "preparing",
       "attempts": 0,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-23 20:46",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18053461010811285"
     },
     "1024-1930-story-from-the-portfolio-part-plan-card": {
       "when": "2026-10-23T22:00:00+02:00",
@@ -197,6 +203,7 @@
     }
   },
   "log": [
+    "2026-10-23 20:46  prepared STORY 1023-1930-story-free-first-look-feel-like-your-place",
     "2026-10-23 20:01  PUBLISHED REEL 1014-1800-reel-worlds-how-it-renders → https://www.instagram.com/reel/De2IGk0khCS/",
     "2026-10-23 19:45  prepared REEL 1014-1800-reel-worlds-how-it-renders",
     "2026-10-23 19:21  PUBLISHED CAROUSEL 1121-1900-carousel-svolta-brand-identity → https://www.instagram.com/p/De2EjfXDCcp/",
@@ -209,6 +216,6 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-23T18:28:09.653Z",
-  "lastTick": "2026-10-23T18:28:09.653Z",
-  "writtenAt": "2026-10-23T18:28:09.653Z"
+  "lastTick": "2026-10-23T18:46:20.168Z",
+  "writtenAt": "2026-10-23T18:46:20.169Z"
 }
