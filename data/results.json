@@ -2,9 +2,44 @@
   "posts": {
     "1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol": {
       "when": "2026-10-24T19:00:00+02:00",
-      "status": "scheduled",
+      "status": "done",
       "attempts": 0,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-24 20:05",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-24 20:05",
+          "event": "carousel container"
+        },
+        {
+          "at": "2026-10-24 20:05",
+          "event": "published https://www.instagram.com/p/De4vE_8l2eW/"
+        },
+        {
+          "at": "2026-10-24 20:05",
+          "event": "first comment posted"
+        }
+      ],
+      "children": [
+        "18053640425811285",
+        "18053640449811285",
+        "18053640530811285",
+        "18053640560811285",
+        "18053640650811285",
+        "18053640674811285",
+        "18053640692811285",
+        "18053640713811285",
+        "18053640734811285",
+        "18053640755811285"
+      ],
+      "container": "18053640773811285",
+      "mediaId": "18101550407543225",
+      "permalink": "https://www.instagram.com/p/De4vE_8l2eW/",
+      "publishedAt": "2026-10-24T18:05:30.210Z",
+      "error": "",
+      "commentId": "18108336671275353"
     },
     "1027-1900-reel-salon-website-design-why-does-this-websi": {
       "when": "2026-10-27T19:00:00+01:00",
@@ -225,6 +260,8 @@
     }
   },
   "log": [
+    "2026-10-24 20:05  PUBLISHED CAROUSEL 1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol → https://www.instagram.com/p/De4vE_8l2eW/",
+    "2026-10-24 20:05  prepared CAROUSEL 1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol",
     "2026-10-23 22:01  PUBLISHED STORY 1024-1930-story-from-the-portfolio-part-plan-card → https://www.instagram.com/stories/paunovarts/4014492341825749236",
     "2026-10-23 21:46  prepared STORY 1024-1930-story-from-the-portfolio-part-plan-card",
     "2026-10-23 21:01  PUBLISHED STORY 1023-1930-story-free-first-look-feel-like-your-place → https://www.instagram.com/stories/paunovarts/4014461931603412557",
@@ -240,7 +277,7 @@
   ],
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-10-24T16:43:22.051Z",
-  "lastTick": "2026-10-24T16:43:22.052Z",
-  "writtenAt": "2026-10-24T16:43:22.052Z"
+  "checkedAt": "2026-10-24T18:04:37.303Z",
+  "lastTick": "2026-10-24T18:05:34.454Z",
+  "writtenAt": "2026-10-24T18:05:34.454Z"
 }
