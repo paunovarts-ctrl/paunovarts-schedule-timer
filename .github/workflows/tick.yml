@@ -43,7 +43,16 @@ jobs:
           git add data/results.json
           if ! git diff --cached --quiet; then
             git commit -qm 'Cloud publisher results'
-            ok=0; for i in 1 2 3 4; do git pull --rebase -q origin main && git push -q origin HEAD:main && { ok=1; break; }; sleep 5; done
+            # another run may have saved results meanwhile: never rebase-and-stall (a stuck rebase lost a save on 26 Oct, and
+            # a lost "published" entry could post twice); take the newest remote file and merge ours into it instead
+            ok=0; for i in 1 2 3 4 5; do
+              git push -q origin HEAD:main && { ok=1; break; }
+              cp data/results.json /tmp/ours.json; git fetch -q origin main; git reset -q --hard origin/main
+              # a failed merge must never save an empty file: then keep this run's answer as before
+              if jq -s -f scripts/merge-results.jq data/results.json /tmp/ours.json > /tmp/merged.json && jq -e .posts /tmp/merged.json > /dev/null
+              then cp /tmp/merged.json data/results.json; else cp /tmp/ours.json data/results.json; fi; git add data/results.json
+              git diff --cached --quiet || git commit -qm 'Cloud publisher results (merged)'; sleep 3
+            done
             [ $ok = 1 ] || { echo 'could not save the results'; exit 1; }
           fi
           [ "${code:-000}" -lt 400 ] || { echo "the publisher answered $code"; exit 1; }
