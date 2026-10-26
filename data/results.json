@@ -257,6 +257,30 @@
       "publishedAt": "2026-10-23T17:21:34.797Z",
       "error": "",
       "commentId": "18077570507446757"
+    },
+    "1027-1900-reel-brand-identity-for-a-hair-studio-even-th": {
+      "when": "2026-10-27T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1029-1900-reel-logo-animation-one-gold-line-draws-a-pea": {
+      "when": "2026-10-29T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
+      "when": "2026-11-10T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1117-1900-reel-brand-at-work-the-beach-body-map-app-eve": {
+      "when": "2026-11-17T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
     }
   },
   "log": [
@@ -277,7 +301,7 @@
   ],
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-10-26T15:32:43.359Z",
-  "lastTick": "2026-10-26T15:32:43.359Z",
-  "writtenAt": "2026-10-26T15:32:43.359Z"
+  "checkedAt": "2026-10-26T17:01:34.992Z",
+  "lastTick": "2026-10-26T17:01:34.992Z",
+  "writtenAt": "2026-10-26T17:01:34.992Z"
 }
