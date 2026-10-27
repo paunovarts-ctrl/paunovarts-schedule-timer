@@ -1,5 +1,100 @@
 {
+  "account": "paunovarts",
+  "tokenError": "",
+  "checkedAt": "2026-10-27T02:07:42.255Z",
+  "lastTick": "2026-10-27T02:07:42.255Z",
+  "writtenAt": "2026-10-27T02:07:42.255Z",
   "posts": {
+    "1014-1800-reel-worlds-how-it-renders": {
+      "when": "2026-10-23T20:00:00+02:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 19:45",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 20:01",
+          "event": "published https://www.instagram.com/reel/De2IGk0khCS/"
+        },
+        {
+          "at": "2026-10-23 20:01",
+          "event": "first comment posted"
+        }
+      ],
+      "container": "18053454026811285",
+      "mediaId": "18079843904389722",
+      "permalink": "https://www.instagram.com/reel/De2IGk0khCS/",
+      "publishedAt": "2026-10-23T18:01:00.999Z",
+      "error": "",
+      "commentId": "17951880555344857"
+    },
+    "1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan": {
+      "when": "2026-10-23T19:00:00+02:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 18:56",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 19:02",
+          "event": "published https://www.instagram.com/reel/De2CX1IgPAn/"
+        },
+        {
+          "at": "2026-10-23 19:02",
+          "event": "first comment posted"
+        }
+      ],
+      "container": "18053447633811285",
+      "mediaId": "18126389450477640",
+      "permalink": "https://www.instagram.com/reel/De2CX1IgPAn/",
+      "publishedAt": "2026-10-23T17:02:23.580Z",
+      "error": "",
+      "commentId": "17957209491259685"
+    },
+    "1022-1930-story-behind-the-build-part-combed-by-code": {
+      "when": "2026-10-23T18:00:00+02:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 18:56",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 18:56",
+          "event": "published https://www.instagram.com/stories/paunovarts/4014406440508489978"
+        }
+      ],
+      "container": "18053447609811285",
+      "mediaId": "18133016863743327",
+      "permalink": "https://www.instagram.com/stories/paunovarts/4014406440508489978",
+      "publishedAt": "2026-10-23T16:56:07.701Z",
+      "error": ""
+    },
+    "1023-1930-story-free-first-look-feel-like-your-place": {
+      "when": "2026-10-23T21:00:00+02:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 20:46",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 21:01",
+          "event": "published https://www.instagram.com/stories/paunovarts/4014461931603412557"
+        }
+      ],
+      "container": "18053461010811285",
+      "mediaId": "18118787998973842",
+      "permalink": "https://www.instagram.com/stories/paunovarts/4014461931603412557",
+      "publishedAt": "2026-10-23T19:01:29.485Z",
+      "error": ""
+    },
     "1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol": {
       "when": "2026-10-24T19:00:00+02:00",
       "status": "done",
@@ -41,6 +136,32 @@
       "error": "",
       "commentId": "18108336671275353"
     },
+    "1024-1930-story-from-the-portfolio-part-plan-card": {
+      "when": "2026-10-23T22:00:00+02:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-10-23 21:46",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-23 22:01",
+          "event": "published https://www.instagram.com/stories/paunovarts/4014492341825749236"
+        }
+      ],
+      "container": "18053466698811285",
+      "mediaId": "18115775342324310",
+      "permalink": "https://www.instagram.com/stories/paunovarts/4014492341825749236",
+      "publishedAt": "2026-10-23T20:01:54.405Z",
+      "error": ""
+    },
+    "1027-1900-reel-brand-identity-for-a-hair-studio-even-th": {
+      "when": "2026-10-27T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
     "1027-1900-reel-salon-website-design-why-does-this-websi": {
       "when": "2026-10-27T19:00:00+01:00",
       "status": "scheduled",
@@ -48,6 +169,12 @@
       "history": []
     },
     "1029-1900-reel-logo-animation": {
+      "when": "2026-10-29T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
+    "1029-1900-reel-logo-animation-one-gold-line-draws-a-pea": {
       "when": "2026-10-29T19:00:00+01:00",
       "status": "scheduled",
       "attempts": 0,
@@ -83,6 +210,12 @@
       "attempts": 0,
       "history": []
     },
+    "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
+      "when": "2026-11-10T19:00:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
+    },
     "1110-1900-reel-hotel-website-alba": {
       "when": "2026-11-10T19:00:00+01:00",
       "status": "scheduled",
@@ -101,121 +234,17 @@
       "attempts": 0,
       "history": []
     },
-    "1117-1900-reel-my-own-website": {
+    "1117-1900-reel-brand-at-work-the-beach-body-map-app-eve": {
       "when": "2026-11-17T19:00:00+01:00",
       "status": "scheduled",
       "attempts": 0,
       "history": []
     },
-    "1022-1930-story-behind-the-build-part-combed-by-code": {
-      "when": "2026-10-23T18:00:00+02:00",
-      "status": "done",
+    "1117-1900-reel-my-own-website": {
+      "when": "2026-11-17T19:00:00+01:00",
+      "status": "scheduled",
       "attempts": 0,
-      "history": [
-        {
-          "at": "2026-10-23 18:56",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-10-23 18:56",
-          "event": "published https://www.instagram.com/stories/paunovarts/4014406440508489978"
-        }
-      ],
-      "container": "18053447609811285",
-      "mediaId": "18133016863743327",
-      "permalink": "https://www.instagram.com/stories/paunovarts/4014406440508489978",
-      "publishedAt": "2026-10-23T16:56:07.701Z",
-      "error": ""
-    },
-    "1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan": {
-      "when": "2026-10-23T19:00:00+02:00",
-      "status": "done",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-10-23 18:56",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-10-23 19:02",
-          "event": "published https://www.instagram.com/reel/De2CX1IgPAn/"
-        },
-        {
-          "at": "2026-10-23 19:02",
-          "event": "first comment posted"
-        }
-      ],
-      "container": "18053447633811285",
-      "mediaId": "18126389450477640",
-      "permalink": "https://www.instagram.com/reel/De2CX1IgPAn/",
-      "publishedAt": "2026-10-23T17:02:23.580Z",
-      "error": "",
-      "commentId": "17957209491259685"
-    },
-    "1014-1800-reel-worlds-how-it-renders": {
-      "when": "2026-10-23T20:00:00+02:00",
-      "status": "done",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-10-23 19:45",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-10-23 20:01",
-          "event": "published https://www.instagram.com/reel/De2IGk0khCS/"
-        },
-        {
-          "at": "2026-10-23 20:01",
-          "event": "first comment posted"
-        }
-      ],
-      "container": "18053454026811285",
-      "mediaId": "18079843904389722",
-      "permalink": "https://www.instagram.com/reel/De2IGk0khCS/",
-      "publishedAt": "2026-10-23T18:01:00.999Z",
-      "error": "",
-      "commentId": "17951880555344857"
-    },
-    "1023-1930-story-free-first-look-feel-like-your-place": {
-      "when": "2026-10-23T21:00:00+02:00",
-      "status": "done",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-10-23 20:46",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-10-23 21:01",
-          "event": "published https://www.instagram.com/stories/paunovarts/4014461931603412557"
-        }
-      ],
-      "container": "18053461010811285",
-      "mediaId": "18118787998973842",
-      "permalink": "https://www.instagram.com/stories/paunovarts/4014461931603412557",
-      "publishedAt": "2026-10-23T19:01:29.485Z",
-      "error": ""
-    },
-    "1024-1930-story-from-the-portfolio-part-plan-card": {
-      "when": "2026-10-23T22:00:00+02:00",
-      "status": "done",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-10-23 21:46",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-10-23 22:01",
-          "event": "published https://www.instagram.com/stories/paunovarts/4014492341825749236"
-        }
-      ],
-      "container": "18053466698811285",
-      "mediaId": "18115775342324310",
-      "permalink": "https://www.instagram.com/stories/paunovarts/4014492341825749236",
-      "publishedAt": "2026-10-23T20:01:54.405Z",
-      "error": ""
+      "history": []
     },
     "1121-1900-carousel-svolta-brand-identity": {
       "when": "2026-10-23T19:20:00+02:00",
@@ -257,30 +286,6 @@
       "publishedAt": "2026-10-23T17:21:34.797Z",
       "error": "",
       "commentId": "18077570507446757"
-    },
-    "1027-1900-reel-brand-identity-for-a-hair-studio-even-th": {
-      "when": "2026-10-27T19:00:00+01:00",
-      "status": "scheduled",
-      "attempts": 0,
-      "history": []
-    },
-    "1029-1900-reel-logo-animation-one-gold-line-draws-a-pea": {
-      "when": "2026-10-29T19:00:00+01:00",
-      "status": "scheduled",
-      "attempts": 0,
-      "history": []
-    },
-    "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
-      "when": "2026-11-10T19:00:00+01:00",
-      "status": "scheduled",
-      "attempts": 0,
-      "history": []
-    },
-    "1117-1900-reel-brand-at-work-the-beach-body-map-app-eve": {
-      "when": "2026-11-17T19:00:00+01:00",
-      "status": "scheduled",
-      "attempts": 0,
-      "history": []
     }
   },
   "log": [
@@ -298,10 +303,5 @@
     "2026-10-23 18:56  prepared REEL 1022-1900-reel-video-ad-for-a-hair-salon-rushed-or-plan",
     "2026-10-23 18:56  PUBLISHED STORY 1022-1930-story-behind-the-build-part-combed-by-code → https://www.instagram.com/stories/paunovarts/4014406440508489978",
     "2026-10-23 18:56  prepared STORY 1022-1930-story-behind-the-build-part-combed-by-code"
-  ],
-  "account": "paunovarts",
-  "tokenError": "",
-  "checkedAt": "2026-10-27T01:58:30.649Z",
-  "lastTick": "2026-10-27T01:58:30.649Z",
-  "writtenAt": "2026-10-27T01:58:30.649Z"
+  ]
 }
