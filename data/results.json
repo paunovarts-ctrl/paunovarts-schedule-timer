@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-27T20:01:55.980Z",
-  "lastTick": "2026-10-27T20:01:57.644Z",
-  "writtenAt": "2026-10-27T20:01:57.644Z",
+  "lastTick": "2026-10-27T20:05:11.988Z",
+  "writtenAt": "2026-10-27T20:05:11.988Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -158,15 +158,28 @@
     },
     "1027-1900-reel-brand-identity-for-a-hair-studio-even-th": {
       "when": "2026-10-27T19:00:00+01:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-10-27 21:01",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-27 21:05",
+          "event": "published https://www.instagram.com/reel/DfAq0GwlI2Q/"
+        },
+        {
+          "at": "2026-10-27 21:05",
+          "event": "first comment posted"
         }
       ],
-      "container": "18054220841811285"
+      "container": "18054220841811285",
+      "mediaId": "18114762740466046",
+      "permalink": "https://www.instagram.com/reel/DfAq0GwlI2Q/",
+      "publishedAt": "2026-10-27T20:05:09.014Z",
+      "error": "",
+      "commentId": "17935670172407514"
     },
     "1027-1900-reel-salon-website-design-why-does-this-websi": {
       "when": "2026-10-27T19:00:00+01:00",
@@ -295,6 +308,7 @@
     }
   },
   "log": [
+    "2026-10-27 21:05  PUBLISHED REEL 1027-1900-reel-brand-identity-for-a-hair-studio-even-th → https://www.instagram.com/reel/DfAq0GwlI2Q/",
     "2026-10-27 21:01  prepared REEL 1027-1900-reel-brand-identity-for-a-hair-studio-even-th",
     "2026-10-24 20:05  PUBLISHED CAROUSEL 1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol → https://www.instagram.com/p/De4vE_8l2eW/",
     "2026-10-24 20:05  prepared CAROUSEL 1024-1900-carousel-brand-identity-for-a-hair-salon-the-whol",
