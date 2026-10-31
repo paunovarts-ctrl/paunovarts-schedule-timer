@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-10-31T15:51:00.752Z",
-  "lastTick": "2026-10-31T15:51:00.752Z",
-  "writtenAt": "2026-10-31T15:51:00.752Z",
+  "checkedAt": "2026-10-31T19:14:33.260Z",
+  "lastTick": "2026-10-31T19:15:21.255Z",
+  "writtenAt": "2026-10-31T19:15:21.255Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -220,9 +220,31 @@
     },
     "1031-1900-carousel-logo-breakdown": {
       "when": "2026-10-31T19:00:00+01:00",
-      "status": "scheduled",
+      "status": "preparing",
       "attempts": 0,
-      "history": []
+      "history": [
+        {
+          "at": "2026-10-31 20:15",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-10-31 20:15",
+          "event": "carousel container"
+        }
+      ],
+      "children": [
+        "18054933077811285",
+        "18054933098811285",
+        "18054933122811285",
+        "18054933140811285",
+        "18054933164811285",
+        "18054933197811285",
+        "18054933224811285",
+        "18054933248811285",
+        "18054933314811285",
+        "18054933338811285"
+      ],
+      "container": "18054933356811285"
     },
     "1103-1900-reel-beach-app-on-a-tablet": {
       "when": "2026-11-03T19:00:00+01:00",
@@ -327,6 +349,7 @@
     }
   },
   "log": [
+    "2026-10-31 20:15  prepared CAROUSEL 1031-1900-carousel-logo-breakdown",
     "2026-10-29 21:18  PUBLISHED REEL 1029-1900-reel-logo-animation-one-gold-line-draws-a-pea → https://www.instagram.com/reel/DfF14i8GiKF/",
     "2026-10-29 21:14  prepared REEL 1029-1900-reel-logo-animation-one-gold-line-draws-a-pea",
     "2026-10-27 21:05  PUBLISHED REEL 1027-1900-reel-brand-identity-for-a-hair-studio-even-th → https://www.instagram.com/reel/DfAq0GwlI2Q/",
