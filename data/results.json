@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-10-31T19:14:33.260Z",
-  "lastTick": "2026-10-31T19:15:21.255Z",
-  "writtenAt": "2026-10-31T19:15:21.255Z",
+  "lastTick": "2026-10-31T19:18:30.378Z",
+  "writtenAt": "2026-10-31T19:18:30.378Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -220,7 +220,7 @@
     },
     "1031-1900-carousel-logo-breakdown": {
       "when": "2026-10-31T19:00:00+01:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
@@ -230,6 +230,14 @@
         {
           "at": "2026-10-31 20:15",
           "event": "carousel container"
+        },
+        {
+          "at": "2026-10-31 20:18",
+          "event": "published https://www.instagram.com/p/DfK4pQxl4zw/"
+        },
+        {
+          "at": "2026-10-31 20:18",
+          "event": "first comment posted"
         }
       ],
       "children": [
@@ -244,7 +252,12 @@
         "18054933314811285",
         "18054933338811285"
       ],
-      "container": "18054933356811285"
+      "container": "18054933356811285",
+      "mediaId": "18450215647134658",
+      "permalink": "https://www.instagram.com/p/DfK4pQxl4zw/",
+      "publishedAt": "2026-10-31T19:18:28.278Z",
+      "error": "",
+      "commentId": "17991891227859479"
     },
     "1103-1900-reel-beach-app-on-a-tablet": {
       "when": "2026-11-03T19:00:00+01:00",
@@ -349,6 +362,7 @@
     }
   },
   "log": [
+    "2026-10-31 20:18  PUBLISHED CAROUSEL 1031-1900-carousel-logo-breakdown → https://www.instagram.com/p/DfK4pQxl4zw/",
     "2026-10-31 20:15  prepared CAROUSEL 1031-1900-carousel-logo-breakdown",
     "2026-10-29 21:18  PUBLISHED REEL 1029-1900-reel-logo-animation-one-gold-line-draws-a-pea → https://www.instagram.com/reel/DfF14i8GiKF/",
     "2026-10-29 21:14  prepared REEL 1029-1900-reel-logo-animation-one-gold-line-draws-a-pea",
