@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-11-01T21:05:59.558Z",
-  "lastTick": "2026-11-01T21:05:59.559Z",
-  "writtenAt": "2026-11-01T21:05:59.559Z",
+  "lastTick": "2026-11-01T21:30:08.397Z",
+  "writtenAt": "2026-11-01T21:30:08.398Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -359,9 +359,22 @@
       "publishedAt": "2026-10-23T17:21:34.797Z",
       "error": "",
       "commentId": "18077570507446757"
+    },
+    "1101-2129-reel-tyto-530am": {
+      "when": "2026-11-01T21:29:00+01:00",
+      "status": "preparing",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-11-01 22:30",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18055131689811285"
     }
   },
   "log": [
+    "2026-11-01 22:30  prepared REEL 1101-2129-reel-tyto-530am",
     "2026-10-31 20:18  PUBLISHED CAROUSEL 1031-1900-carousel-logo-breakdown → https://www.instagram.com/p/DfK4pQxl4zw/",
     "2026-10-31 20:15  prepared CAROUSEL 1031-1900-carousel-logo-breakdown",
     "2026-10-29 21:18  PUBLISHED REEL 1029-1900-reel-logo-animation-one-gold-line-draws-a-pea → https://www.instagram.com/reel/DfF14i8GiKF/",
