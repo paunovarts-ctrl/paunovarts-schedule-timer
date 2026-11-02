@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-11-02T01:07:23.742Z",
-  "lastTick": "2026-11-02T01:07:23.742Z",
-  "writtenAt": "2026-11-02T01:07:23.742Z",
+  "checkedAt": "2026-11-02T01:16:34.207Z",
+  "lastTick": "2026-11-02T01:16:34.208Z",
+  "writtenAt": "2026-11-02T01:16:34.208Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -259,6 +259,38 @@
       "error": "",
       "commentId": "17991891227859479"
     },
+    "1101-2129-reel-tyto-530am": {
+      "when": "2026-11-01T21:29:00+01:00",
+      "status": "preparing",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-11-01 22:30",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18055131689811285"
+    },
+    "1101-2246-reel-tyto-530am": {
+      "when": "2026-11-01T22:46:00+01:00",
+      "status": "done",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-11-01 22:45",
+          "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-11-01 22:48",
+          "event": "published https://www.instagram.com/reel/DfNunF6juj3/"
+        }
+      ],
+      "container": "18055132736811285",
+      "mediaId": "18094386539679379",
+      "permalink": "https://www.instagram.com/reel/DfNunF6juj3/",
+      "publishedAt": "2026-11-01T21:48:29.199Z",
+      "error": ""
+    },
     "1103-1900-reel-beach-app-on-a-tablet": {
       "when": "2026-11-03T19:00:00+01:00",
       "status": "scheduled",
@@ -359,38 +391,6 @@
       "publishedAt": "2026-10-23T17:21:34.797Z",
       "error": "",
       "commentId": "18077570507446757"
-    },
-    "1101-2129-reel-tyto-530am": {
-      "when": "2026-11-01T21:29:00+01:00",
-      "status": "preparing",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-11-01 22:30",
-          "event": "container made in the cloud"
-        }
-      ],
-      "container": "18055131689811285"
-    },
-    "1101-2246-reel-tyto-530am": {
-      "when": "2026-11-01T22:46:00+01:00",
-      "status": "done",
-      "attempts": 0,
-      "history": [
-        {
-          "at": "2026-11-01 22:45",
-          "event": "container made in the cloud"
-        },
-        {
-          "at": "2026-11-01 22:48",
-          "event": "published https://www.instagram.com/reel/DfNunF6juj3/"
-        }
-      ],
-      "container": "18055132736811285",
-      "mediaId": "18094386539679379",
-      "permalink": "https://www.instagram.com/reel/DfNunF6juj3/",
-      "publishedAt": "2026-11-01T21:48:29.199Z",
-      "error": ""
     }
   },
   "log": [
