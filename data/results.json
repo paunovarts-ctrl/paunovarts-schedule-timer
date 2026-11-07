@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-11-07T19:22:41.519Z",
-  "lastTick": "2026-11-07T19:23:26.121Z",
-  "writtenAt": "2026-11-07T19:23:26.121Z",
+  "lastTick": "2026-11-07T19:26:34.032Z",
+  "writtenAt": "2026-11-07T19:26:34.032Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -311,7 +311,7 @@
     },
     "1107-1900-carousel-alba-brand-identity": {
       "when": "2026-11-07T19:00:00+01:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
@@ -321,6 +321,14 @@
         {
           "at": "2026-11-07 20:23",
           "event": "carousel container"
+        },
+        {
+          "at": "2026-11-07 20:26",
+          "event": "published https://www.instagram.com/p/Dfc7IsXjDr7/"
+        },
+        {
+          "at": "2026-11-07 20:26",
+          "event": "first comment posted"
         }
       ],
       "children": [
@@ -335,7 +343,12 @@
         "18055983398811285",
         "18055983419811285"
       ],
-      "container": "18055983455811285"
+      "container": "18055983455811285",
+      "mediaId": "18148720477573549",
+      "permalink": "https://www.instagram.com/p/Dfc7IsXjDr7/",
+      "publishedAt": "2026-11-07T19:26:32.658Z",
+      "error": "",
+      "commentId": "17888661924688831"
     },
     "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
       "when": "2026-11-10T19:00:00+01:00",
@@ -416,6 +429,7 @@
     }
   },
   "log": [
+    "2026-11-07 20:26  PUBLISHED CAROUSEL 1107-1900-carousel-alba-brand-identity → https://www.instagram.com/p/Dfc7IsXjDr7/",
     "2026-11-07 20:23  prepared CAROUSEL 1107-1900-carousel-alba-brand-identity",
     "2026-11-01 22:48  PUBLISHED REEL 1101-2246-reel-tyto-530am → https://www.instagram.com/reel/DfNunF6juj3/",
     "2026-11-01 22:45  prepared REEL 1101-2246-reel-tyto-530am",
