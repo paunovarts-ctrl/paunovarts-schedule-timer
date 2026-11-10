@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-11-10T18:11:04.157Z",
-  "lastTick": "2026-11-10T18:11:04.633Z",
-  "writtenAt": "2026-11-10T18:11:04.633Z",
+  "checkedAt": "2026-11-10T20:29:16.959Z",
+  "lastTick": "2026-11-10T20:29:16.960Z",
+  "writtenAt": "2026-11-10T20:29:16.960Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -352,7 +352,7 @@
     },
     "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
       "when": "2026-11-10T19:00:00+01:00",
-      "status": "published",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
