@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-11-10T17:31:30.488Z",
-  "lastTick": "2026-11-10T17:46:34.988Z",
-  "writtenAt": "2026-11-10T17:46:34.988Z",
+  "checkedAt": "2026-11-10T18:01:39.967Z",
+  "lastTick": "2026-11-10T18:01:54.566Z",
+  "writtenAt": "2026-11-10T18:01:54.566Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -352,15 +352,28 @@
     },
     "1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the": {
       "when": "2026-11-10T19:00:00+01:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-11-10 18:46",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-11-10 19:01",
+          "event": "published https://www.instagram.com/reel/DfkedJxim0H/"
+        },
+        {
+          "at": "2026-11-10 19:01",
+          "event": "first comment posted"
         }
       ],
-      "container": "18056418608811285"
+      "container": "18056418608811285",
+      "mediaId": "17913194520311070",
+      "permalink": "https://www.instagram.com/reel/DfkedJxim0H/",
+      "publishedAt": "2026-11-10T18:01:52.520Z",
+      "error": "",
+      "commentId": "18078215549757783"
     },
     "1110-1900-reel-hotel-website-alba": {
       "when": "2026-11-10T19:00:00+01:00",
@@ -435,6 +448,7 @@
     }
   },
   "log": [
+    "2026-11-10 19:01  PUBLISHED REEL 1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the → https://www.instagram.com/reel/DfkedJxim0H/",
     "2026-11-10 18:46  prepared REEL 1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the",
     "2026-11-07 20:26  PUBLISHED CAROUSEL 1107-1900-carousel-alba-brand-identity → https://www.instagram.com/p/Dfc7IsXjDr7/",
     "2026-11-07 20:23  prepared CAROUSEL 1107-1900-carousel-alba-brand-identity",
