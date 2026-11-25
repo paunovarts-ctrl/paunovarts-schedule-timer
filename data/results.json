@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-11-25T05:32:13.113Z",
-  "lastTick": "2026-11-25T05:32:13.113Z",
-  "writtenAt": "2026-11-25T05:32:13.113Z",
+  "checkedAt": "2026-11-25T12:36:18.353Z",
+  "lastTick": "2026-11-25T12:36:19.778Z",
+  "writtenAt": "2026-11-25T12:36:19.778Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -435,9 +435,22 @@
       "publishedAt": "2026-10-23T17:21:34.797Z",
       "error": "",
       "commentId": "18077570507446757"
+    },
+    "1125-1900-reel-1125-1900-reel-blank-feather": {
+      "when": "2026-11-25T13:36:00+01:00",
+      "status": "preparing",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-11-25 13:36",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18058447973811285"
     }
   },
   "log": [
+    "2026-11-25 13:36  prepared REEL 1125-1900-reel-1125-1900-reel-blank-feather",
     "2026-11-10 19:01  PUBLISHED REEL 1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the → https://www.instagram.com/reel/DfkedJxim0H/",
     "2026-11-10 18:46  prepared REEL 1110-1900-reel-brand-identity-for-a-stay-by-the-sea-the",
     "2026-11-07 20:26  PUBLISHED CAROUSEL 1107-1900-carousel-alba-brand-identity → https://www.instagram.com/p/Dfc7IsXjDr7/",
