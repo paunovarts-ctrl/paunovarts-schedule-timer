@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-11-26T23:18:00.459Z",
-  "lastTick": "2026-11-26T23:30:39.212Z",
-  "writtenAt": "2026-11-26T23:30:39.212Z",
+  "lastTick": "2026-11-26T23:33:53.887Z",
+  "writtenAt": "2026-11-26T23:33:53.887Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -463,18 +463,32 @@
     },
     "1127-0033-reel-every-sun-bed-on-your-beach-on-one-scree": {
       "when": "2026-11-27T00:30:00+01:00",
-      "status": "preparing",
+      "status": "done",
       "attempts": 0,
       "history": [
         {
           "at": "2026-11-27 00:30",
           "event": "container made in the cloud"
+        },
+        {
+          "at": "2026-11-27 00:33",
+          "event": "published https://www.instagram.com/reel/DgOSizSvACQ/"
+        },
+        {
+          "at": "2026-11-27 00:33",
+          "event": "first comment posted"
         }
       ],
-      "container": "18058623032811285"
+      "container": "18058623032811285",
+      "mediaId": "18032459525914828",
+      "permalink": "https://www.instagram.com/reel/DgOSizSvACQ/",
+      "publishedAt": "2026-11-26T23:33:52.162Z",
+      "error": "",
+      "commentId": "18131803228895663"
     }
   },
   "log": [
+    "2026-11-27 00:33  PUBLISHED REEL 1127-0033-reel-every-sun-bed-on-your-beach-on-one-scree → https://www.instagram.com/reel/DgOSizSvACQ/",
     "2026-11-27 00:30  prepared REEL 1127-0033-reel-every-sun-bed-on-your-beach-on-one-scree",
     "2026-11-25 13:39  PUBLISHED REEL 1125-1900-reel-1125-1900-reel-blank-feather → https://www.instagram.com/reel/DgKi35Xuq4n/",
     "2026-11-25 13:36  prepared REEL 1125-1900-reel-1125-1900-reel-blank-feather",
