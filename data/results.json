@@ -2,8 +2,8 @@
   "account": "paunovarts",
   "tokenError": "",
   "checkedAt": "2026-11-27T22:54:53.948Z",
-  "lastTick": "2026-11-27T22:54:53.949Z",
-  "writtenAt": "2026-11-27T22:54:53.949Z",
+  "lastTick": "2026-11-27T22:57:05.040Z",
+  "writtenAt": "2026-11-27T22:57:05.040Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -510,9 +510,22 @@
       "publishedAt": "2026-11-27T11:45:14.967Z",
       "error": "",
       "commentId": "18233095027327318"
+    },
+    "1128-0000-reel-ill-redesign-it-episode-1-lunaria": {
+      "when": "2026-11-28T00:00:00+01:00",
+      "status": "preparing",
+      "attempts": 0,
+      "history": [
+        {
+          "at": "2026-11-27 23:57",
+          "event": "container made in the cloud"
+        }
+      ],
+      "container": "18058744019811285"
     }
   },
   "log": [
+    "2026-11-27 23:57  prepared REEL 1128-0000-reel-ill-redesign-it-episode-1-lunaria",
     "2026-11-27 12:45  PUBLISHED REEL 1127-1141-reel-your-restaurant-looks-like-every-other-l → https://www.instagram.com/reel/DgPmPlYpbin/",
     "2026-11-27 12:42  prepared REEL 1127-1141-reel-your-restaurant-looks-like-every-other-l",
     "2026-11-27 12:38  prepared REEL 1127-1141-reel-your-restaurant-looks-like-every-other-l",
