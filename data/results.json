@@ -1,9 +1,9 @@
 {
   "account": "paunovarts",
   "tokenError": "",
-  "checkedAt": "2026-11-27T22:54:53.948Z",
-  "lastTick": "2026-11-27T23:00:19.394Z",
-  "writtenAt": "2026-11-27T23:00:19.394Z",
+  "checkedAt": "2026-11-27T23:27:25.806Z",
+  "lastTick": "2026-11-27T23:27:25.806Z",
+  "writtenAt": "2026-11-27T23:27:25.806Z",
   "posts": {
     "1014-1800-reel-worlds-how-it-renders": {
       "when": "2026-10-23T20:00:00+02:00",
@@ -535,6 +535,12 @@
       "publishedAt": "2026-11-27T23:00:17.239Z",
       "error": "",
       "commentId": "18132172588924091"
+    },
+    "1128-0620-reel-every-project-opens-differently": {
+      "when": "2026-11-28T06:20:00+01:00",
+      "status": "scheduled",
+      "attempts": 0,
+      "history": []
     }
   },
   "log": [
